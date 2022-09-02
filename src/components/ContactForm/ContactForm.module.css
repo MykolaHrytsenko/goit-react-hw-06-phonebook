@@ -1,0 +1,19 @@
+.form {
+  width: 300px;
+  padding: 20px;
+  display: block;
+  border: 1px solid;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+}
+.btn {
+  margin: 5px 10px;
+  background-color: beige;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: green;
+}
