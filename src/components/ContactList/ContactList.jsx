@@ -1,7 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
-import { removeItem, getItems, getFilter } from '../../redux/contactsSlice';
+import {
+  removeItem,
+  getItems,
+  getFilter,
+} from '../../features/contacts/contactsSlice';
 import css from './ContactList.module.css';
 
 export const ContactList = () => {
