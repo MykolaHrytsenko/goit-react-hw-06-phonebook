@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { addItem, getItems } from '../../features/contacts/contactsSlice';
+import { addItem, getItems } from '../../redux/contacts/contactsSlice';
 import { nanoid } from 'nanoid';
 import css from './ContactForm.module.css';
 
@@ -87,4 +87,3 @@ export function ContactForm() {
     </div>
   );
 }
-

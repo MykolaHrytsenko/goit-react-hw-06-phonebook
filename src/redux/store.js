@@ -8,7 +8,7 @@ import {
   PURGE,
   REGISTER,
 } from 'redux-persist';
-import { contactsReducer } from '../features/contacts/contactsSlice';
+import { contactsReducer } from './contacts/contactsSlice';
 
 
 

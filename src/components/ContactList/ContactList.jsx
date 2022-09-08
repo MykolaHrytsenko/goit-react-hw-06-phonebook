@@ -4,7 +4,7 @@ import {
   removeItem,
   getItems,
   getFilter,
-} from '../../features/contacts/contactsSlice';
+} from '../../redux/contacts/contactsSlice';
 import css from './ContactList.module.css';
 
 export const ContactList = () => {
